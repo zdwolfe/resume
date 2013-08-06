@@ -1,0 +1,160 @@
+body {
+    font-size: 10pt;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.vcontainer {
+    height: 100%;
+}
+
+#page-content {
+}
+
+#edited-date {
+    display: inline-block;
+}
+
+h1#name-header {
+    display: inline-block;
+}
+
+span#edited-date {
+    color: rgba(0,0,0,.5);
+}
+
+div#page-content > :not(:last-child) {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,.1);
+}
+
+#contact-info-container ul {
+    list-style-type: none;
+    display: table-row;
+}
+
+#contact-info-container li {
+    display: inline;
+    padding: 8px;
+    width: 256px;
+}
+
+#contact-info-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#contact-info-container span {
+    padding-left: 4px;
+}
+
+#experience-content > ul {
+    list-style-type: none;
+}
+
+.job-skills {
+    margin-top: 12px;
+}
+
+.job-skills ul {
+    list-style-type: none;
+    display: table-row;
+}
+
+.job-skills li {
+    display: table-cell;
+    padding: 2px 8px;
+}
+
+.job-skills li div.well {
+    padding: 4px 8px;
+}
+
+ul.employer-info {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+ul.employer-info li:not(:first-child) {
+    font-weight: lighter;
+    color: rgba(0,0,0,.5);
+}
+
+ul.employer-info :first-child {
+    font-weight: bolder;
+}
+
+ul#education-list {
+    list-style-type: none;
+}
+
+ul#education-list :first-child {
+    font-weight: bolder;
+}
+
+ul#education-list li:not(:first-child) {
+    font-weight: lighter;
+    color: rgba(0,0,0,.5);
+}
+
+ul#education-details {
+    list-style-type: circle;
+}
+
+h5.job-title {
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+  color: #474747;
+}
+
+h1 {
+  font-size: 2.8em;
+  letter-spacing: -1px;
+  color: #474747;
+} 
+
+h1:before {
+  content: "/";
+  color: #9ddcff;
+  padding-right: 0.3em;
+  margin-left: -0.9em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #474747;
+} 
+h2:before {
+  content: "//";
+  color: #9ddcff;
+  padding-right: 0.3em;
+  margin-left: -1.5em;
+}
+
+h3 {
+  font-size: 1.0em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #474747;
+} 
+ 
+ h3:before {
+  content: "///";
+  color: #9ddcff;
+  padding-right: 0.3em;
+  margin-left: -2em;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+}
