@@ -57,20 +57,17 @@ div#page-content > :not(:last-child) {
 }
 
 .job-skills {
-    margin-top: 12px;
-}
-
-.job-skills ul {
+    padding-top: 12px;
     list-style-type: none;
     display: table-row;
 }
 
-.job-skills li {
+.job-skills > li {
     display: table-cell;
     padding: 2px 8px;
 }
 
-.job-skills li div.well {
+.job-skills > li div.well {
     padding: 4px 8px;
 }
 
