@@ -1,7 +1,7 @@
 {
     "resume": {
         "path_to_layout": "./layouts/resume.ejs",
-        "jobs_to_display": 4,
+        "jobs_to_display": 10,
         "experience": [
             {
                 "employer_name": "Amazon.com",
@@ -19,7 +19,7 @@
                 "employer_name": "Amazon.com",
                 "employer_location": "Seattle, WA",
                 "employer_time": "2012",
-                "job_title": "Software Development Engineer Inter",
+                "job_title": "Software Development Engineer Intern",
                 "job_duties": [
                     "Achieved latency reduction goal of Amazon Sign In pages",
                     "Localized US Sign In pages for use in other regions"
