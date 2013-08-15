@@ -1,0 +1,5 @@
+{
+    "index": {
+        "path_to_layout": "./layouts/resume.ejs"
+    }
+}
