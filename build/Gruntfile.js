@@ -12,7 +12,6 @@ module.exports = function(grunt) {
                     index_page: 'resume',
                     parent_dirs: false,
                     underscores_to_dashes: true,
-                    pretty: true,
                     file_extension: '.html'
                 }
             }

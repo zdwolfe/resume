@@ -1,6 +1,6 @@
 {
     "resume": {
-        "path_to_layout": "./layouts/resume.ejs",
+        "path_to_layout": "./layouts/resume/index.html",
         "jobs_to_display": 10,
         "experience": [
             {
@@ -61,5 +61,10 @@
                 "job_skills": [ "Presentation", "Contract Estimation", "Accounting", "Management"]
             }
         ]
+    },
+    "resume2": {
+        "path_to_layout": "./layouts/resume2/index.html",
+        "jobs_to_display": 10,
+        "experience": []
     }
 }
