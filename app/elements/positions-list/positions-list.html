@@ -1,8 +1,21 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/core-list/core-list.html">
+<link rel="import" href="../../bower_components/core-menu/core-menu.html">
+<link rel="import" href="../../bower_components/paper-menu-button/paper-menu-button.html">
+<link rel="import" href="../../bower_components/paper-dropdown/paper-dropdown.html">
 
-<polymer-element name="positions-list" attributes="">
+<polymer-element name="positions-list" attributes="positions heading">
   <template>
     <link rel="stylesheet" href="positions-list.css">
+
+    <core-drawer-panel id="drawerPanel" forceNarrow>
+      <core-toolbar>Menu</core-toolbar>
+      <core-menu selected="0" on-core-select="{{closeDrawer}}">
+        <paper-item noink>
+          Positions
+        </paper-item>
+      </core-menu>
+    </core-drawer-panel>
   </template>
   <script>
     (function () {
