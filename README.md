@@ -1,3 +1,0 @@
-# Building
-## Requirements
-* grunt-cli
