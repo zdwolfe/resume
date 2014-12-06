@@ -6,25 +6,35 @@
             {
                 "employer_name": "Amazon.com",
                 "employer_location": "Seattle, WA",
-                "employer_time": "2013",
-                "job_title": "Senior Software Development Engineer Intern",
+                "employer_time": "2014",
+                "job_title": "Software Development Engineer",
                 "job_duties": [
-                    "Worked with Identity team on Login With Amazon OAuth provider service",
-                    "Designed and developed unreleased Login With Amazon features",
-                    "Assisted first-year SDE Interns"
+                  "Development and maintenance on Amazon's OpenID customer authentication front-end platform used by millions of customers",
+                  "Full-stack web development in Java/Spring MVC environments",
+                  "Team Scrum Master"
                 ],
-                "job_skills": [ "Java", "Spring Framework", "jQuery", "HTML", "CSS3", "Linux"]
+                "job_skills": [ "Java/JSP", "Spring MVC", "UI Design", "Agile", "Linux", "OpenID"]
+            },
+            {
+                "employer_name": "Amazon.com",
+                "employer_location": "Seattle, WA",
+                "employer_time": "2013",
+                "job_title": "Software Engineer Intern II",
+                "job_duties": [
+                  "Development of a metrics portal for Login With Amazon OAuth product for application owners to view usage metrics"
+                ],
+                "job_skills": [ "Java/JSP", "Spring MVC", "jQuery", "HTML", "CSS", "Linux"]
             },
             {
                 "employer_name": "Amazon.com",
                 "employer_location": "Seattle, WA",
                 "employer_time": "2012",
-                "job_title": "Software Development Engineer Intern",
+                "job_title": "Software Engineer Intern",
                 "job_duties": [
-                    "Achieved latency reduction goal of Amazon Sign In pages",
-                    "Localized US Sign In pages for use in other regions"
+                    "Latency and performance improvements on Amazon's OpenID customer authentication platform",
+                    "Full-stack web development in Java/Spring MVC environment"
                 ],
-                "job_skills": [ "JSP", "HTML", "CSS3", "Javascript", "Linux" ]
+                "job_skills": [ "Java/JSP", "Spring MVC", "HTML", "CSS", "Linux", "OpenID"]
             },
             {
                 "employer_name": "JDS Uniphase",
@@ -32,8 +42,8 @@
                 "employer_time": "2011",
                 "job_title": "Software Engineer Co-Op",
                 "job_duties": [
-                    "Development of GUI for handheld, commercial network test devices",
-                    "Involved with UI/UX team developing technician-friendly configuration wizards"
+                    "Development of Qt UI components for JDSU MTS field  network testing devices",
+                    "UI/UX design for technician-friendly configuration wizards"
                 ],
                 "job_skills": [ "TCL", "C", "C++", "Qt", "Linux" ]
             },
@@ -43,8 +53,8 @@
                 "employer_time": "2010-2011",
                 "job_title": "Programmer",
                 "job_duties": [
-                    "Web development for local start-up business",
-                    "Worked with development team on UI/UX and server-side applications and scripts"
+                    "Web development for local start-up crowdfunding business",
+                    "UI/UX design, database design, and MVC framework implementation"
                 ],
                 "job_skills": [ "PHP", "jQuery", "CSS", "AJAX", "Linux" ]
             },
@@ -55,7 +65,7 @@
                 "job_title": "Branch Manager",
                 "job_duties": [
                     "Franchise manager of exterior house painting company",
-                    "Hired and oversaw twelve employees",
+                    "Responsible for twelve employees",
                     "Gained revenues in excess of $90k"
                 ],
                 "job_skills": [ "Presentation", "Contract Estimation", "Accounting", "Management"]
