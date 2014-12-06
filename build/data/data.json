@@ -9,7 +9,7 @@
                 "employer_time": "2014",
                 "job_title": "Software Development Engineer",
                 "job_duties": [
-                  "Development and maintenance on Amazon's OpenID customer authentication front-end platform used by millions of customers",
+                  "Development and maintenance on Amazon's OpenID customer authentication front-end platform",
                   "Full-stack web development in Java/Spring MVC environments",
                   "Team Scrum Master"
                 ],
@@ -21,7 +21,7 @@
                 "employer_time": "2013",
                 "job_title": "Software Engineer Intern II",
                 "job_duties": [
-                  "Development of a metrics portal for Login With Amazon OAuth product for application owners to view usage metrics"
+                  "Development of a customer-facing metrics portal for Login With Amazon OAuth product"
                 ],
                 "job_skills": [ "Java/JSP", "Spring MVC", "jQuery", "HTML", "CSS", "Linux"]
             },
