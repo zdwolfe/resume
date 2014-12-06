@@ -20,16 +20,14 @@
 </head>
 
 <body unresolved>
-
-  <div class="hero-unit">
-    <yo-greeting></yo-greeting>
-    <p>You now have</p>
-    <yo-list></yo-list>
-  </div>
-
-  <!-- build:js scripts/app.js -->
-  <script src="scripts/app.js"></script>
-  <!-- endbuild-->
+  <template id="app" is="auto-binding">
+    <core-animated-pages id="pages" selected="{{selected}}" transitions="cross-fade">
+      <section layout vertical>
+        <positions-list class="page" id="positions" positions="{{positions}}" cross-fade?="{{largeScreen}}" heading="{{heading}}" flex>
+        </positions-list>
+      </section>
+    </core-animated-pages>
+  </template>
 </body>
 
 </html>
