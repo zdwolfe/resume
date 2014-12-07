@@ -1,7 +1,7 @@
 {
     "resume": {
         "path_to_layout": "./layouts/resume/index.html",
-        "jobs_to_display": 10,
+        "jobs_to_display": 5,
         "experience": [
             {
                 "employer_name": "Amazon.com",
@@ -9,7 +9,7 @@
                 "employer_time": "2014",
                 "job_title": "Software Development Engineer",
                 "job_duties": [
-                  "Development and maintenance on Amazon's OpenID customer authentication front-end platform",
+                  "Development and maintenance on Amazon's OpenID web authentication platform",
                   "Full-stack web development in Java/Spring MVC environments",
                   "Team Scrum Master"
                 ],
@@ -31,7 +31,7 @@
                 "employer_time": "2012",
                 "job_title": "Software Engineer Intern",
                 "job_duties": [
-                    "Latency and performance improvements on Amazon's OpenID customer authentication platform",
+                    "Latency and performance improvements on Amazon's OpenID web authentication platform",
                     "Full-stack web development in Java/Spring MVC environment"
                 ],
                 "job_skills": [ "Java/JSP", "Spring MVC", "HTML", "CSS", "Linux", "OpenID"]
@@ -48,17 +48,6 @@
                 "job_skills": [ "TCL", "C", "C++", "Qt", "Linux" ]
             },
             {
-                "employer_name": "Cogster",
-                "employer_location": "State College, PA",
-                "employer_time": "2010-2011",
-                "job_title": "Programmer",
-                "job_duties": [
-                    "Web development for local start-up crowdfunding business",
-                    "UI/UX design, database design, and MVC framework implementation"
-                ],
-                "job_skills": [ "PHP", "jQuery", "CSS", "AJAX", "Linux" ]
-            },
-            {
                 "employer_name": "College Works Painting",
                 "employer_location": "Pittsburgh, PA",
                 "employer_time": "2009-2010",
@@ -69,6 +58,17 @@
                     "Gained revenues in excess of $90k"
                 ],
                 "job_skills": [ "Presentation", "Contract Estimation", "Accounting", "Management"]
+            },
+            {
+                "employer_name": "Cogster",
+                "employer_location": "State College, PA",
+                "employer_time": "2010-2011",
+                "job_title": "Programmer",
+                "job_duties": [
+                    "Web development for local start-up crowdfunding business",
+                    "UI/UX design, database design, and MVC framework implementation"
+                ],
+                "job_skills": [ "PHP", "jQuery", "CSS", "AJAX", "Linux" ]
             }
         ]
     },
